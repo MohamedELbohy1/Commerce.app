@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:25px 50px;
+    background-color: #ff5733;
+    position: fixed;
+
+  }
+  nav .container{
+    padding: 10px;
+  }
+  nav h1 {
+    color: #fff;
+    margin-block: 15px;
+    margin-inline: 40px ;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px; /* Adjust spacing between menu items */
+  }
+  
+  nav ul li {
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add transition for hover effect */
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 0.3s;
+  }
+  nav ul li a:hover{
+    transform: scale(1.2);
+    color: lightskyblue; 
+  }
+  
+  nav ul li:hover {
+    color: lightskyblue; /* Lighter color on hover */
+  }
+  .btn {
+    margin: 10px;
+    text-align: center;
+    border: #fff;
+  }
+  .d-flex a{
+    text-decoration: none;
+    color: #fff;
+  transition: all 0.3s;
+  }
+  .d-flex a:hover{
+    color: lightskyblue;
+  }

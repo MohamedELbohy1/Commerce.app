@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +33,287 @@
     transform: rotate(360deg);
   }
 }
+/*Start with Contact-us Component */
+.contact-header{
+  text-align: left;
+  margin-top:40px ;
+}
+.contact-header h1{
+  font-weight: bolder;
+}
+.contact-us{
+  margin-top: 40px;
+  background-color: #E4F4F0;
+  padding: 40px;
+  border-radius: 10px;
+}
+.contact-us .contacts{
+  margin-block:30px ;
+}
+.contact-us .contacts div{
+  margin-block: 8px;
+}
+.contact-us .contacts div span{
+  margin-inline:10px ;
+  font-weight: bold;
+}
+.contact-header p,
+.contact-us p{
+  color: darkcyan;
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.contact-form label{
+  font-weight: bold;
+  margin-block:10px ;
+}
+.contact-form input,
+.contact-form textarea{
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  cursor: pointer;
+}
+.contact-form button,.addcart{
+color: #fff;
+max-width: 100px;
+background-color: #D17D1D;
+font-weight: 500;
+margin-top: 20px;
+padding: 12px 7px;
+border-radius: 10px;
+border: none;
+transition: all 0.3s;
+}
+.contact-form button:hover{
+  transform: scale(1.1);
+}
+.Opening h4{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+/*End with Contact-us Component */
+/* Start with footer Conmponet */
+footer{
+  margin-top: 60px;
+  background-color: #282c34;
+  color: #fff;
+  padding-top: 50px;
+}
+footer .footer-links ul li a,
+footer .more-details .contact ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .footer-links ul ,
+footer .more-details .contact ul , 
+footer .more-details .social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 ;
+}
+footer .more-details .contact div span{
+  margin-left: 20px;
+  transition: all 0.3s;
+}
+footer .footer-links ul li a{
+  display: block;
+  margin-bottom: 7px;
+  transition: all 0.3s;
+}
+footer .footer-links article img{
+  margin-inline: 2px;
+}
+footer .more-details .contact ul li a img {
+  width: 24px;
+  margin-right: 8px;
+  display: inline-block;
+}
+footer .more-details .contact ul li {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+footer .more-details .contact ul li a span {
+  display: inline-block;
+  transition: all .3s;
+}
+footer .more-details .social-media ul li{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+  transition: all .3s;
+}
+footer .footer-links header h3{
+  margin-bottom: 23px;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .footer-links ul li a:hover{
+  transform: translateX(8px);
+}
+footer .more-details .contact div:hover span{ 
+  transform: translateX(10px);
+  transform: scaleX(.9);
+}
+/* End With footer Component */
+/* Start Register From */
+.register-heading,
+.login-heading {
+  color: #303030;
+  text-align: left;
+  font-size: 2.2rem;
+  margin-block: 10px 30px;
+}
+
+form.register-form,
+form.login-form {
+  background-color: #f4f4f4;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  /* min-height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin-block: 80px;
+  border-radius: 15px;
+}
+
+form.register-form label,
+form.login-form label {
+  text-align: left;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+form.register-form button,
+form.login-form button {
+  background-color: #fe6752;
+  border: none;
+  transition: all .3s;
+  margin-block: 10px;
+}
+
+form.register-form button:hover {
+  background-color: #0275d8;
+}
+ .btn-google {
+  background-color: #fff !important;
+  padding: 8px;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.btn-google img{
+  margin-inline: 8px;
+}
+.btn-google:hover{
+  background-color: #0275d8 !important;
+}
+.link-sign{
+  margin-top: 20px;
+}
+.link-sign a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.link-sign a:hover{
+  text-decoration: underline;
+}
+/* End with register and login component */
+.links-router a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+.product button{
+  max-width: 130px;
+  margin-block: 8px;
+  margin-left: 90px;
+}
+
+/* Start Gallery page */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 50px;
+}
+
+.gallery h1 {
+  width: 100%;
+}
+
+.gallery .product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 350px;
+  padding: 10px;
+  border-radius: 14px;
+  box-sizing: border-box;
+  transition: all .4s;
+}
+
+.gallery .product-card:hover {
+  border: 1px solid #cbcbcb;
+  color: #fe6752;
+}
+
+.gallery .product-card:hover a {
+  text-decoration: underline;
+}
+
+.gallery .product-card img {
+  width: 100%;
+  max-height: 250px;
+  gap: 10px;
+}
+
+.gallery .product-card a {
+  text-decoration: none;
+  color: #fe6752;
+}
+
+.gallery #product-price {
+  font-weight: 700;
+}
+
+/* End Gallery page */
+
+/* Start Product Details  */
+.product-details-upper {
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.product-details-upper img {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-details .buy-btn-2 {
+  background-color: #0275d8;
+}
+
+@media(max-width:700px) {
+  .product-details-upper {
+    max-width: 300px;
+  }
+
+  .product-details-upper img {
+    max-width: 250px;
+  }
+}
+
+
+/* End Product Details  */

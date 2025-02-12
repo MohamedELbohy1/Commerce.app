@@ -1,0 +1,57 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+  background-color: #f4f4f4;
+  margin-bottom: 90px;
+}
+
+.banner-text {
+  max-width: 500px;
+  margin-block: 20px;
+}
+
+.banner h2 {
+  font-size: 3rem;
+  font-weight: 700; /* Increase font weight */
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.shop-now {
+  padding: 15px 30px;
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ; /* Hover transition */
+}
+
+.shop-now:hover {
+  transform: scale(1.1);
+}
+
+.banner-image img {
+  max-width: 600px;
+  border-radius: 10px; /* Add slight rounding to image */
+}
+@media (max-width:768px) {
+  .banner-image img {
+    max-width: 350px;
+  }
+  .banner-text{
+    max-width: 300px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+}
